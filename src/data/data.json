@@ -26,17 +26,17 @@
         },
         {
             "id": "4",
-            "name": "Wine Skul T-Shirt",
-            "prices": "$ 13.25",
-            "pictures": "39876704341265610_1.jpg",
+            "name": "Skuul",
+            "prices": "$ 14.00",
+            "pictures": "11033926921508488_1.jpg",
             "size": "",
             "quantity": ""    
         },
         {
             "id": "5",
-            "name": "Danger Knife Grey",
-            "prices": "$ 14.90",
-            "pictures": "11854078013954528_1.jpg",
+            "name": "Wine Skul T-Shirt",
+            "prices": "$ 13.25",
+            "pictures": "39876704341265610_1.jpg",
             "size": "",
             "quantity": ""    
         },
@@ -50,11 +50,19 @@
         },
         {
             "id": "7",
-            "name": "White DGK Script Tee",
-            "prices": "$ 14.90",
-            "pictures": "876661122392077_1.jpg",
+            "name": "Cat Tee Black T-Shirt",
+            "prices": "$ 10.90",
+            "pictures": "8552515751438644_1.jpg",
             "size": "",
             "quantity": ""    
+        },
+        {
+            "id": "8",
+            "name": "Sphynx Tie Dye Grey T-Shirt",
+            "prices": "$ 10.90",
+            "pictures": "18644119330491310_1.jpg",
+            "size": "",
+            "quantity": ""   
         }
     ]
 }

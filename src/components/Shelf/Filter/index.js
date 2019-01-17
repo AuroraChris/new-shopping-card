@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Size from '../../CheckBoxes/index';
+import "./style.css";
 
 class SizePart extends Component {
     availableSizes = ['XS', 'S', 'M', 'ML', 'L', 'XL', 'XXL'];
 
     createCheckboxes = () => {
-        this.availableSizes.map((size) => {
-            return < Size size={size}/>
-        });
+        return this.availableSizes.map((size) => < Size size={size}/> );
     }
-
 
     render(){
         return (

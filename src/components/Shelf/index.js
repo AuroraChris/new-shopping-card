@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Filter from "./Filter/index";
 import ShelfHeader from "./ShelfHeader/index";
-import Product from "./Product/index";
+import ProductList from "./ProductList/index";
 import Sort from "./Sort/index";
 
 class Shelf extends Component {
@@ -9,9 +9,9 @@ class Shelf extends Component {
         return (
             <div>
                 < Filter />
-                < ShelfHeader />
-                < Product />
                 < Sort />
+                < ShelfHeader />
+                < ProductList />
             </div>
         );
     }
