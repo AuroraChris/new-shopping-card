@@ -6,7 +6,7 @@ class SizePart extends Component {
     availableSizes = ['XS', 'S', 'M', 'ML', 'L', 'XL', 'XXL'];
 
     createCheckboxes = () => {
-        return this.availableSizes.map((size) => < Size size={size}/> );
+        return this.availableSizes.map((size, index) => < Size size={size} key={index}/> );
     }
 
     render(){

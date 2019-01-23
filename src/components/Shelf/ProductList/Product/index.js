@@ -7,7 +7,7 @@ const Product = props => {
                 <div className="shelf-stopper">Free shipping</div>
                 <Thumb 
                     classes="shelf-item__thumb"
-                    src={props.images}
+                    src={props.product}
                 />
                 <p className="shelf-item__title">product</p>
                 <div className="shelf-item__price">
