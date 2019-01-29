@@ -1,6 +1,6 @@
 import React from 'react';
-
 const Thumb = (props) => {
+    console.log(props.src.pictures)
     return (
         <div className={props.classes}>
             <img 
