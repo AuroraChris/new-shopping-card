@@ -4,7 +4,7 @@ import "./style.css";
 class ShelfHeader extends Component {
     render () {
         return (
-            <div className="header">ShelfHeader</div>
+            <div className="header">n products found</div>
         );
     }
 }

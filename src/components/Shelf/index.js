@@ -3,15 +3,18 @@ import Filter from "./Filter/index";
 import ShelfHeader from "./ShelfHeader/index";
 import ProductList from "./ProductList/index";
 import Sort from "./Sort/index";
+import "./style.css"
 
 class Shelf extends Component {
     render(){
         return (
             <div>
                 < Filter />
-                < Sort />
-                < ShelfHeader />
-                < ProductList />
+                <div className="shelf">
+                    < Sort />
+                    < ShelfHeader />
+                    < ProductList />
+                </div>
             </div>
         );
     }
